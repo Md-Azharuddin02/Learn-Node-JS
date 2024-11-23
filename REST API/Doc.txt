@@ -1,0 +1,15 @@
+RESTFULL API
+
+
+
+GET('/user)=> Get the all user in the form of HTML(CSR)[Clinet Side Rendering] => done
+
+GET('/api/user')=> Get the all user in the form of JSON(SSR)[Server Side Rendering] => done
+
+GET('/api/user/:id')=> Get the user according to the id in the form of JSON(SSR)[Server Side Rendering]=> done
+
+POST('/api/user')= > create a new user in the form of JSON(SSR)[Server Side Rendering] => done
+
+PATHCH('/api/user/:id')=> update the user acccording to the id in the form of JSON(SSR)[Server Side Rendering]=> done
+
+DELETE('/api/user/:id)=> delete the user acccording to the id in the form of JSON(SSR)[Server Side Rendering]=> done
